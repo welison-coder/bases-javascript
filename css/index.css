@@ -144,3 +144,7 @@ button[disabled=disabled], button:disabled {
 label{
 	color: #FFF;
 }
+
+span{
+	color:red;
+}
