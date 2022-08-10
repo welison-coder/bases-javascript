@@ -21,11 +21,19 @@ botaoAdicionar.addEventListener('click', function(event){
 
     tabela.appendChild(pacienteTr)
 
+    adicionaPacienteNaTabela(paciente)
+
     form.reset()
     var mensagemErro = document.querySelector('#mensagem-erro')
     mensagemErro.innerHTML = ''
     
 })
+
+function adicionaPacienteNaTabela(paciente){
+    var pacienteTr = montarTr(paciente)
+    var tabela = document.querySelector('#tabela-pacientes')
+    tabela.appendChild(pacienteTr)
+}
 
 function exibeMensagensErro(erros){
     var ul = document.querySelector('#mensagem-erro')
