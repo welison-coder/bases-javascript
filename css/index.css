@@ -150,3 +150,22 @@ ul{
 	margin: 10px;
 	
 }
+
+.fadOut{
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#filtrar-tabela{
+	width: 200px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+input{
+	background-color: #c8c8c9;
+}
+
+.invisivel{
+	display: none;
+}
